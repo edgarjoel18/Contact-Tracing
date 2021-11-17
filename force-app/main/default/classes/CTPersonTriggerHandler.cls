@@ -29,7 +29,7 @@ public with sharing class CTPersonTriggerHandler{
             }
         }
         Set<Id> alreadyProcessed = new Set<Id>();
-        alreadyProcessed.addAll(statusChange);
+        alreadyProcessed.addAll(redStatus);
         Set<Id> orangeStatus = new Set<Id>();
         Set<Id> yellowStatus = new Set<Id>();
         List<Person__c> peopleToUpdate = new List<Person__c>();

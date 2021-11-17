@@ -30,7 +30,7 @@ public with sharing class CTPersonTabController{
     @AuraEnabled
     public static UserInformation getPersonDetails(String recordId){
         UserInformation info = new UserInformation();
-        Person__c person = CTPersonController.getPersonById(personId);
+        Person__c person = CTPersonController.getPersonById(recordId);
         if (person != null){
             info.name = person.Name;
             info.token = person.Token__c;
