@@ -4,8 +4,6 @@ Sample Contact Tracing app built on Salesforce Platform.
 
 ![Contact_Tracing_App](https://github.com/choudharymanish8585/contact-tracing/blob/master/screenshots/screenshots.png)
 
-<b>This application is part of my course "[Salesforce Apex Development](https://www.udemy.com/course/salesforce-development)". Enroll now to get access to detailed explaination.</b>
-
 ## Install Object Schema
 
 **Make sure you have "git" and Salesoforce CLI installed in your system. Follow below steps to upload object schema along with permission set in your Salesforce Org.**
