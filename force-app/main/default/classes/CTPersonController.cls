@@ -1,5 +1,6 @@
 public with sharing class CTPersonController{
     // create a hash from the user's mobile number
+    // These APIs are from the Apex developer library
     public static String getToken(String mobileNumber){
         // Turn the string into a blob
         Blob value = Blob.valueOf(mobileNumber);
